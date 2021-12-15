@@ -1,0 +1,241 @@
+@font-face {
+  font-family: iransansdn;
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/eot/iransansdnbold.eot");
+  src: url("../fonts/eot/iransansdnbold.eot?#iefix") format("embedded-opentype"),
+    /* IE6-8 */ url("../fonts/woff2/iransansdnbold.woff2") format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/ url("../fonts/woff/iransansdnbold.woff")
+      format("woff"),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url("../fonts/ttf/iransansdnbold.ttf")
+      format("truetype");
+}
+@font-face {
+  font-family: iransansdn;
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/eot/iransansdnlight.eot");
+  src: url("../fonts/eot/iransansdnlight.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-8 */ url("../fonts/woff2/iransansdnlight.woff2") format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/ url("../fonts/woff/iransansdnlight.woff")
+      format("woff"),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url("../fonts/ttf/iransansdnlight.ttf")
+      format("truetype");
+}
+@font-face {
+  font-family: iransansdn;
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/eot/iransansdn.eot");
+  src: url("../fonts/eot/iransansdn.eot?#iefix") format("embedded-opentype"),
+    /* IE6-8 */ url("../fonts/woff2/iransansdn.woff2") format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/ url("../fonts/woff/iransansdn.woff")
+      format("woff"),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url("../fonts/ttf/iransansdn.ttf")
+      format("truetype");
+}
+* {
+  font-family: iransansdn;
+  text-align: right;
+  direction: rtl;
+  font-size: 17px;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  color: #007bff;
+}
+.btn {
+  border-color: chartreuse;
+  color: chartreuse;
+  margin-right: 2px;
+}
+.navbar {
+  border-radius: 10px;
+}
+.navbar .navbar-brand {
+  color: white;
+}
+.navbar .nav-item .nav-link {
+  color: white;
+}
+.nav-item :active {
+  color: rgb(192, 190, 190);
+}
+.nav-item :hover {
+  color: rgb(192, 190, 190) !important;
+}
+.nav-item {
+  float: right;
+}
+.placeholder {
+  font-size: 14px;
+}
+.dropdown-menu {
+  text-align: right;
+  border-radius: 15px;
+  margin-left: -80px;
+  font-size: 15px;
+  background-color: #343a40;
+}
+.dropdown-menu a {
+  font-size: 14px;
+}
+.dropdown-item {
+  color: white;
+}
+.information-site {
+  background-color: #333;
+  border-left: 50px solid #fff;
+  border-right: 50px solid #fff;
+  text-align: center;
+  padding: 6px;
+  border-radius: 30%;
+}
+.information-site img {
+  height: 150px;
+}
+.information-site span {
+  color: #fff;
+}
+
+.post-item p {
+  padding-top: 20px;
+}
+.post-item a {
+  font-weight: bold;
+  font-size: 18px;
+}
+.post-item span {
+  font-size: 14px;
+  color: #686e71;
+}
+.post-item {
+  border: 1px solid #d6e4f1;
+  border-radius: 5%;
+  margin-top: 20px;
+}
+
+.post-item img {
+  border-radius: 10px 10px 0 0;
+}
+.post-caption {
+  padding: 0 11px;
+  margin-bottom: 10px;
+}
+.post-item .post-caption .seen-post svg {
+  padding-left: 3px;
+}
+.post-item .post-caption .seen-post {
+  opacity: 0.8;
+}
+
+.post-comment {
+  padding-right: 10px;
+}
+
+.post-comment svg {
+  font-size: 15px;
+}
+
+.post-m {
+  padding-left: 10px;
+  color: #576f96 !important;
+  font-weight: bold;
+  transition: 0.5s;
+}
+.post-m:hover {
+  color: dodgerblue !important;
+}
+
+footer .footer1 {
+  background: url("https://toplearn.com/site/images/footer-pattern.png") repeat
+    0 0 #153248;
+  height: 230px;
+}
+footer .footer1 form input.input-group {
+  width: 75%;
+  height: 40px;
+  display: inline;
+  border-radius: 6px;
+  border: 0px;
+  font-size: 14px;
+  padding-right: 15px;
+}
+footer .footer1 form input.btn {
+  background-color: darkgreen;
+  border-color: forestgreen;
+  color: whitesmoke;
+  height: 40px;
+  margin-right: -5px;
+  position: absolute;
+  border-radius: 6px 0 0 6px;
+}
+footer .footer1 form {
+  border: 2px dashed #334d60;
+  border-radius: 6px;
+  padding: 11px;
+}
+
+.namad img {
+  background-color: whitesmoke;
+  padding: 15px;
+  margin: 30px;
+  border-radius: 20px;
+}
+
+.footer2 {
+  background-color: #334d60;
+  height: 50px;
+}
+.footer2 p {
+  color: #fff;
+  padding-top: 13px;
+  padding-right: 26%;
+}
+.post-page {
+  padding: 20px;
+  border: 2px dashed #334d60;
+  border-radius: 15px;
+}
+.image-post img {
+  border-radius: 10px 10px 250px 10px;
+  margin-bottom: 2%;
+}
+
+.information-post {
+  opacity: 0.7;
+  margin-top: -83px;
+}
+
+.information-post svg {
+  margin-left: 10px;
+}
+.content-post{
+  width: 600px;
+  text-align: justify;
+  line-height: 30px;
+}
+.tag-post{
+  padding: 20px;
+  border: 2px dashed rgb(21, 226, 158);
+  border-radius: 15px;
+  width: 600px;
+}
+.tag-post span{
+  font-size: 13px;
+  background-color: #f1f5f8;
+  padding: 0.5%;
+  cursor: pointer;
+  border-radius: 3px;
+  display: inline-block;
+  margin-bottom: 8px;
+}
+.tag-post span:hover{
+  background-color: #b3b3b3;
+  transition: 0.8s;
+}
